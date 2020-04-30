@@ -28,7 +28,11 @@ The file `connect4.py` implements the Connect 4 board. The file `connect4players
 - Alpha-beta Player Lvl 2:
   - Same as Minmax Player Lvl 2 but with alpha-beta prunning.
 
-The Jupyter Notebook `Connect4.ipynb` contains an analysis of the quality of the players.
+The Jupyter Notebook `Connect4.ipynb` contains an analysis of the quality of the players. In the table below, you can fin the winning percentage of player againsts Player Lvl 2 from a total of 100 games where each player goes first half the times.
+
+| Left Player | Random Player | Player Lvl 1 | One-step Player Lvl 1 | One-step Player Lvl 2 |
+|-------------|---------------|--------------|-----------------------|-----------------------|
+| 0%          | 3%            | 17%          | 70%                   | 92%                   |
 
 ## To do list
 - [X] Implement base players.
