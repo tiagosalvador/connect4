@@ -4,6 +4,7 @@ import torch
 from timeit import default_timer as timer
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+#device = "cpu"
 
 class connect4board():
     def __init__(self):
@@ -22,6 +23,7 @@ class connect4board():
             i = torch.max(r[self.current_board[:,a] == 0])
             self.current_board[i,a] = self.player
             self.last_played[0] = i
+#            self.last_played[1] = a
             self.last_played[1] = a.cpu().data.numpy()
             self.player = torch.remainder(self.player,2)+1
         else:
@@ -86,7 +88,6 @@ def play_connect4(player1,player2):
             a = player2(board)
             end = timer()
             time_p2 += end - start # Time in seconds
-        
         if sum(board.actions() == a):
             board.play(a)
         else:

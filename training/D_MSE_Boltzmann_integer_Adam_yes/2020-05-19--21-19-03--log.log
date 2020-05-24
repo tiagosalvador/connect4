@@ -1,0 +1,1017 @@
+Training Neural Net on Connect 4
+  self_play_batch_size: 1000
+  benchmark_batch_size: 100
+  training_rounds: 100
+  memory_size: 1000
+  network: D
+  exploration: Boltzmann
+  loss: MSE
+  encoding: integer
+  optimizer: Adam
+  experience: yes
+
+Benchmark Stats Training Round 0
+W: 0.35, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.16, T: 0.00 (versus lvl1)
+W: 0.04, T: 0.01 (versus lvl2)
+Training round 1 stats
+Wins 0.51, Ties 0.01, Losses 0.48, Game Length 20.14 moves
+Loss p1: 0.151640, Loss p2: 0.148402
+Benchmark Stats Training Round 1
+W: 0.82, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.64, T: 0.00 (versus lvl1)
+W: 0.24, T: 0.00 (versus lvl2)
+Training round 1 completed in 14 minutes and 50 seconds.
+Expected completion: 22:04 2020-05-20.
+Training round 2 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 19.66 moves
+Loss p1: 0.128439, Loss p2: 0.122873
+Benchmark Stats Training Round 2
+W: 0.73, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.52, T: 0.00 (versus lvl1)
+W: 0.21, T: 0.00 (versus lvl2)
+Training round 2 completed in 14 minutes and 53 seconds.
+Expected completion: 22:09 2020-05-20.
+Training round 3 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 19.23 moves
+Loss p1: 0.125667, Loss p2: 0.128653
+Benchmark Stats Training Round 3
+W: 0.77, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.62, T: 0.00 (versus lvl1)
+W: 0.22, T: 0.00 (versus lvl2)
+Training round 3 completed in 14 minutes and 29 seconds.
+Expected completion: 21:30 2020-05-20.
+Training round 4 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 19.64 moves
+Loss p1: 0.124744, Loss p2: 0.128001
+Benchmark Stats Training Round 4
+W: 0.83, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.64, T: 0.00 (versus lvl1)
+W: 0.28, T: 0.01 (versus lvl2)
+Training round 4 completed in 14 minutes and 23 seconds.
+Expected completion: 21:21 2020-05-20.
+Training round 5 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 19.48 moves
+Loss p1: 0.135563, Loss p2: 0.131153
+Benchmark Stats Training Round 5
+W: 0.91, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.73, T: 0.00 (versus lvl1)
+W: 0.30, T: 0.01 (versus lvl2)
+Training round 5 completed in 14 minutes and 13 seconds.
+Expected completion: 21:04 2020-05-20.
+Training round 6 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 19.39 moves
+Loss p1: 0.130716, Loss p2: 0.130442
+Benchmark Stats Training Round 6
+W: 0.89, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.65, T: 0.00 (versus lvl1)
+W: 0.30, T: 0.00 (versus lvl2)
+Training round 6 completed in 14 minutes and 35 seconds.
+Expected completion: 21:40 2020-05-20.
+Training round 7 stats
+Wins 0.48, Ties 0.00, Losses 0.52, Game Length 19.52 moves
+Loss p1: 0.132761, Loss p2: 0.142538
+Benchmark Stats Training Round 7
+W: 0.75, T: 0.01 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.57, T: 0.00 (versus lvl1)
+W: 0.22, T: 0.00 (versus lvl2)
+Training round 7 completed in 14 minutes and 59 seconds.
+Expected completion: 22:17 2020-05-20.
+Training round 8 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 19.68 moves
+Loss p1: 0.133678, Loss p2: 0.134949
+Benchmark Stats Training Round 8
+W: 0.69, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.48, T: 0.00 (versus lvl1)
+W: 0.22, T: 0.00 (versus lvl2)
+Training round 8 completed in 14 minutes and 31 seconds.
+Expected completion: 21:34 2020-05-20.
+Training round 9 stats
+Wins 0.53, Ties 0.00, Losses 0.47, Game Length 19.71 moves
+Loss p1: 0.133558, Loss p2: 0.130803
+Benchmark Stats Training Round 9
+W: 0.70, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.49, T: 0.00 (versus lvl1)
+W: 0.18, T: 0.00 (versus lvl2)
+Training round 9 completed in 15 minutes and 4 seconds.
+Expected completion: 22:24 2020-05-20.
+Training round 10 stats
+Wins 0.48, Ties 0.00, Losses 0.52, Game Length 19.34 moves
+Loss p1: 0.133149, Loss p2: 0.136760
+Benchmark Stats Training Round 10
+W: 0.84, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.63, T: 0.00 (versus lvl1)
+W: 0.19, T: 0.01 (versus lvl2)
+Training round 10 completed in 6 minutes and 37 seconds.
+Expected completion: 09:35 2020-05-20.
+Training round 11 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 19.69 moves
+Loss p1: 0.142381, Loss p2: 0.136788
+Benchmark Stats Training Round 11
+W: 0.80, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.53, T: 0.00 (versus lvl1)
+W: 0.22, T: 0.00 (versus lvl2)
+Training round 11 completed in 6 minutes and 19 seconds.
+Expected completion: 09:07 2020-05-20.
+Training round 12 stats
+Wins 0.47, Ties 0.00, Losses 0.53, Game Length 19.30 moves
+Loss p1: 0.135690, Loss p2: 0.138264
+Benchmark Stats Training Round 12
+W: 0.80, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.72, T: 0.00 (versus lvl1)
+W: 0.20, T: 0.00 (versus lvl2)
+Training round 12 completed in 6 minutes and 16 seconds.
+Expected completion: 09:04 2020-05-20.
+Training round 13 stats
+Wins 0.49, Ties 0.00, Losses 0.50, Game Length 19.21 moves
+Loss p1: 0.135795, Loss p2: 0.135541
+Benchmark Stats Training Round 13
+W: 0.72, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.54, T: 0.00 (versus lvl1)
+W: 0.03, T: 0.01 (versus lvl2)
+Training round 13 completed in 6 minutes and 21 seconds.
+Expected completion: 09:11 2020-05-20.
+Training round 14 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 19.10 moves
+Loss p1: 0.128829, Loss p2: 0.139844
+Benchmark Stats Training Round 14
+W: 0.80, T: 0.01 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.54, T: 0.00 (versus lvl1)
+W: 0.12, T: 0.03 (versus lvl2)
+Training round 14 completed in 6 minutes and 17 seconds.
+Expected completion: 09:04 2020-05-20.
+Training round 15 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 19.21 moves
+Loss p1: 0.126895, Loss p2: 0.137617
+Benchmark Stats Training Round 15
+W: 0.71, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.69, T: 0.00 (versus lvl1)
+W: 0.16, T: 0.00 (versus lvl2)
+Training round 15 completed in 6 minutes and 20 seconds.
+Expected completion: 09:10 2020-05-20.
+Training round 16 stats
+Wins 0.55, Ties 0.00, Losses 0.45, Game Length 19.52 moves
+Loss p1: 0.131700, Loss p2: 0.138154
+Benchmark Stats Training Round 16
+W: 0.85, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.73, T: 0.00 (versus lvl1)
+W: 0.38, T: 0.00 (versus lvl2)
+Training round 16 completed in 6 minutes and 24 seconds.
+Expected completion: 09:15 2020-05-20.
+Training round 17 stats
+Wins 0.49, Ties 0.01, Losses 0.50, Game Length 19.87 moves
+Loss p1: 0.131556, Loss p2: 0.136165
+Benchmark Stats Training Round 17
+W: 0.78, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.51, T: 0.00 (versus lvl1)
+W: 0.13, T: 0.02 (versus lvl2)
+Training round 17 completed in 6 minutes and 27 seconds.
+Expected completion: 09:19 2020-05-20.
+Training round 18 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 19.62 moves
+Loss p1: 0.133009, Loss p2: 0.136729
+Benchmark Stats Training Round 18
+W: 0.90, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.76, T: 0.00 (versus lvl1)
+W: 0.26, T: 0.00 (versus lvl2)
+Training round 18 completed in 6 minutes and 28 seconds.
+Expected completion: 09:20 2020-05-20.
+Training round 19 stats
+Wins 0.51, Ties 0.01, Losses 0.48, Game Length 19.66 moves
+Loss p1: 0.129022, Loss p2: 0.130645
+Benchmark Stats Training Round 19
+W: 0.69, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.49, T: 0.00 (versus lvl1)
+W: 0.10, T: 0.01 (versus lvl2)
+Training round 19 completed in 6 minutes and 23 seconds.
+Expected completion: 09:13 2020-05-20.
+Training round 20 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 19.10 moves
+Loss p1: 0.138665, Loss p2: 0.133226
+Benchmark Stats Training Round 20
+W: 0.79, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.61, T: 0.00 (versus lvl1)
+W: 0.17, T: 0.00 (versus lvl2)
+Training round 20 completed in 6 minutes and 11 seconds.
+Expected completion: 08:58 2020-05-20.
+Training round 21 stats
+Wins 0.48, Ties 0.00, Losses 0.52, Game Length 19.35 moves
+Loss p1: 0.141117, Loss p2: 0.138967
+Benchmark Stats Training Round 21
+W: 0.85, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.75, T: 0.00 (versus lvl1)
+W: 0.19, T: 0.00 (versus lvl2)
+Training round 21 completed in 6 minutes and 21 seconds.
+Expected completion: 09:11 2020-05-20.
+Training round 22 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 19.13 moves
+Loss p1: 0.140100, Loss p2: 0.134363
+Benchmark Stats Training Round 22
+W: 0.88, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.76, T: 0.00 (versus lvl1)
+W: 0.26, T: 0.01 (versus lvl2)
+Training round 22 completed in 6 minutes and 12 seconds.
+Expected completion: 08:59 2020-05-20.
+Training round 23 stats
+Wins 0.54, Ties 0.00, Losses 0.46, Game Length 19.20 moves
+Loss p1: 0.140083, Loss p2: 0.137448
+Benchmark Stats Training Round 23
+W: 0.88, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.74, T: 0.00 (versus lvl1)
+W: 0.26, T: 0.00 (versus lvl2)
+Training round 23 completed in 6 minutes and 14 seconds.
+Expected completion: 09:02 2020-05-20.
+Training round 24 stats
+Wins 0.54, Ties 0.00, Losses 0.46, Game Length 19.40 moves
+Loss p1: 0.148239, Loss p2: 0.145052
+Benchmark Stats Training Round 24
+W: 0.86, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.64, T: 0.01 (versus lvl1)
+W: 0.16, T: 0.00 (versus lvl2)
+Training round 24 completed in 6 minutes and 25 seconds.
+Expected completion: 09:15 2020-05-20.
+Training round 25 stats
+Wins 0.50, Ties 0.00, Losses 0.49, Game Length 19.90 moves
+Loss p1: 0.144740, Loss p2: 0.140152
+Benchmark Stats Training Round 25
+W: 0.87, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.79, T: 0.00 (versus lvl1)
+W: 0.26, T: 0.02 (versus lvl2)
+Training round 25 completed in 6 minutes and 24 seconds.
+Expected completion: 09:15 2020-05-20.
+Training round 26 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 19.43 moves
+Loss p1: 0.140971, Loss p2: 0.137861
+Benchmark Stats Training Round 26
+W: 0.77, T: 0.01 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.66, T: 0.00 (versus lvl1)
+W: 0.19, T: 0.01 (versus lvl2)
+Training round 26 completed in 6 minutes and 25 seconds.
+Expected completion: 09:16 2020-05-20.
+Training round 27 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 19.13 moves
+Loss p1: 0.141375, Loss p2: 0.142851
+Benchmark Stats Training Round 27
+W: 0.84, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.68, T: 0.00 (versus lvl1)
+W: 0.13, T: 0.00 (versus lvl2)
+Training round 27 completed in 6 minutes and 16 seconds.
+Expected completion: 09:05 2020-05-20.
+Training round 28 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 19.31 moves
+Loss p1: 0.145228, Loss p2: 0.146674
+Benchmark Stats Training Round 28
+W: 0.92, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.78, T: 0.00 (versus lvl1)
+W: 0.33, T: 0.00 (versus lvl2)
+Training round 28 completed in 6 minutes and 10 seconds.
+Expected completion: 08:57 2020-05-20.
+Training round 29 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 19.07 moves
+Loss p1: 0.141235, Loss p2: 0.140107
+Benchmark Stats Training Round 29
+W: 0.86, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.73, T: 0.00 (versus lvl1)
+W: 0.25, T: 0.00 (versus lvl2)
+Training round 29 completed in 6 minutes and 11 seconds.
+Expected completion: 08:58 2020-05-20.
+Training round 30 stats
+Wins 0.53, Ties 0.00, Losses 0.47, Game Length 19.06 moves
+Loss p1: 0.150012, Loss p2: 0.143948
+Benchmark Stats Training Round 30
+W: 0.91, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.76, T: 0.01 (versus lvl1)
+W: 0.32, T: 0.00 (versus lvl2)
+Training round 30 completed in 6 minutes and 15 seconds.
+Expected completion: 09:03 2020-05-20.
+Training round 31 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 19.26 moves
+Loss p1: 0.150537, Loss p2: 0.145942
+Benchmark Stats Training Round 31
+W: 0.87, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.84, T: 0.00 (versus lvl1)
+W: 0.38, T: 0.00 (versus lvl2)
+Training round 31 completed in 6 minutes and 10 seconds.
+Expected completion: 08:58 2020-05-20.
+Training round 32 stats
+Wins 0.53, Ties 0.00, Losses 0.47, Game Length 18.89 moves
+Loss p1: 0.146719, Loss p2: 0.148905
+Benchmark Stats Training Round 32
+W: 0.83, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.57, T: 0.00 (versus lvl1)
+W: 0.17, T: 0.00 (versus lvl2)
+Training round 32 completed in 6 minutes and 18 seconds.
+Expected completion: 09:07 2020-05-20.
+Training round 33 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 19.46 moves
+Loss p1: 0.151431, Loss p2: 0.147412
+Benchmark Stats Training Round 33
+W: 0.86, T: 0.01 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.74, T: 0.00 (versus lvl1)
+W: 0.28, T: 0.00 (versus lvl2)
+Training round 33 completed in 6 minutes and 22 seconds.
+Expected completion: 09:11 2020-05-20.
+Training round 34 stats
+Wins 0.48, Ties 0.00, Losses 0.52, Game Length 19.03 moves
+Loss p1: 0.148872, Loss p2: 0.144283
+Benchmark Stats Training Round 34
+W: 0.88, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.74, T: 0.00 (versus lvl1)
+W: 0.16, T: 0.00 (versus lvl2)
+Training round 34 completed in 6 minutes and 17 seconds.
+Expected completion: 09:05 2020-05-20.
+Training round 35 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 19.14 moves
+Loss p1: 0.144872, Loss p2: 0.152986
+Benchmark Stats Training Round 35
+W: 0.86, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.82, T: 0.00 (versus lvl1)
+W: 0.20, T: 0.01 (versus lvl2)
+Training round 35 completed in 6 minutes and 12 seconds.
+Expected completion: 09:00 2020-05-20.
+Training round 36 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 19.10 moves
+Loss p1: 0.154911, Loss p2: 0.145342
+Benchmark Stats Training Round 36
+W: 0.92, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.79, T: 0.00 (versus lvl1)
+W: 0.37, T: 0.00 (versus lvl2)
+Training round 36 completed in 6 minutes and 9 seconds.
+Expected completion: 08:57 2020-05-20.
+Training round 37 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 18.92 moves
+Loss p1: 0.165608, Loss p2: 0.146898
+Benchmark Stats Training Round 37
+W: 0.90, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.63, T: 0.00 (versus lvl1)
+W: 0.25, T: 0.00 (versus lvl2)
+Training round 37 completed in 6 minutes and 6 seconds.
+Expected completion: 08:53 2020-05-20.
+Training round 38 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 18.97 moves
+Loss p1: 0.160322, Loss p2: 0.149128
+Benchmark Stats Training Round 38
+W: 0.88, T: 0.01 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.65, T: 0.00 (versus lvl1)
+W: 0.17, T: 0.00 (versus lvl2)
+Training round 38 completed in 6 minutes and 17 seconds.
+Expected completion: 09:05 2020-05-20.
+Training round 39 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 18.96 moves
+Loss p1: 0.161730, Loss p2: 0.159104
+Benchmark Stats Training Round 39
+W: 0.88, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.73, T: 0.00 (versus lvl1)
+W: 0.29, T: 0.00 (versus lvl2)
+Training round 39 completed in 6 minutes and 13 seconds.
+Expected completion: 09:01 2020-05-20.
+Training round 40 stats
+Wins 0.52, Ties 0.00, Losses 0.47, Game Length 19.02 moves
+Loss p1: 0.166674, Loss p2: 0.161234
+Benchmark Stats Training Round 40
+W: 0.80, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.71, T: 0.00 (versus lvl1)
+W: 0.28, T: 0.00 (versus lvl2)
+Training round 40 completed in 6 minutes and 12 seconds.
+Expected completion: 09:00 2020-05-20.
+Training round 41 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 18.91 moves
+Loss p1: 0.166994, Loss p2: 0.154795
+Benchmark Stats Training Round 41
+W: 0.90, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.78, T: 0.00 (versus lvl1)
+W: 0.31, T: 0.00 (versus lvl2)
+Training round 41 completed in 6 minutes and 21 seconds.
+Expected completion: 09:09 2020-05-20.
+Training round 42 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 19.29 moves
+Loss p1: 0.163529, Loss p2: 0.155725
+Benchmark Stats Training Round 42
+W: 0.88, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.84, T: 0.00 (versus lvl1)
+W: 0.31, T: 0.00 (versus lvl2)
+Training round 42 completed in 6 minutes and 10 seconds.
+Expected completion: 08:58 2020-05-20.
+Training round 43 stats
+Wins 0.50, Ties 0.00, Losses 0.49, Game Length 19.67 moves
+Loss p1: 0.170540, Loss p2: 0.165114
+Benchmark Stats Training Round 43
+W: 0.83, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.72, T: 0.00 (versus lvl1)
+W: 0.15, T: 0.01 (versus lvl2)
+Training round 43 completed in 6 minutes and 23 seconds.
+Expected completion: 09:11 2020-05-20.
+Training round 44 stats
+Wins 0.49, Ties 0.00, Losses 0.50, Game Length 19.05 moves
+Loss p1: 0.160004, Loss p2: 0.160763
+Benchmark Stats Training Round 44
+W: 0.90, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.83, T: 0.00 (versus lvl1)
+W: 0.25, T: 0.00 (versus lvl2)
+Training round 44 completed in 6 minutes and 12 seconds.
+Expected completion: 09:00 2020-05-20.
+Training round 45 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 18.48 moves
+Loss p1: 0.170213, Loss p2: 0.152016
+Benchmark Stats Training Round 45
+W: 0.94, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.84, T: 0.00 (versus lvl1)
+W: 0.40, T: 0.02 (versus lvl2)
+Training round 45 completed in 6 minutes and 10 seconds.
+Expected completion: 08:59 2020-05-20.
+Training round 46 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 18.34 moves
+Loss p1: 0.166207, Loss p2: 0.158098
+Benchmark Stats Training Round 46
+W: 0.90, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.78, T: 0.00 (versus lvl1)
+W: 0.21, T: 0.01 (versus lvl2)
+Training round 46 completed in 6 minutes and 6 seconds.
+Expected completion: 08:55 2020-05-20.
+Training round 47 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 18.59 moves
+Loss p1: 0.166203, Loss p2: 0.158520
+Benchmark Stats Training Round 47
+W: 0.90, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.68, T: 0.00 (versus lvl1)
+W: 0.17, T: 0.00 (versus lvl2)
+Training round 47 completed in 6 minutes and 15 seconds.
+Expected completion: 09:03 2020-05-20.
+Training round 48 stats
+Wins 0.50, Ties 0.00, Losses 0.49, Game Length 18.74 moves
+Loss p1: 0.169756, Loss p2: 0.153199
+Benchmark Stats Training Round 48
+W: 0.86, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.63, T: 0.00 (versus lvl1)
+W: 0.25, T: 0.01 (versus lvl2)
+Training round 48 completed in 6 minutes and 11 seconds.
+Expected completion: 09:00 2020-05-20.
+Training round 49 stats
+Wins 0.53, Ties 0.00, Losses 0.47, Game Length 19.25 moves
+Loss p1: 0.167566, Loss p2: 0.161937
+Benchmark Stats Training Round 49
+W: 0.79, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.72, T: 0.00 (versus lvl1)
+W: 0.19, T: 0.02 (versus lvl2)
+Training round 49 completed in 6 minutes and 16 seconds.
+Expected completion: 09:04 2020-05-20.
+Training round 50 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 18.73 moves
+Loss p1: 0.173524, Loss p2: 0.157851
+Benchmark Stats Training Round 50
+W: 0.93, T: 0.01 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.83, T: 0.00 (versus lvl1)
+W: 0.26, T: 0.00 (versus lvl2)
+Training round 50 completed in 6 minutes and 11 seconds.
+Expected completion: 08:59 2020-05-20.
+Training round 51 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 18.68 moves
+Loss p1: 0.169489, Loss p2: 0.155396
+Benchmark Stats Training Round 51
+W: 0.83, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.62, T: 0.00 (versus lvl1)
+W: 0.17, T: 0.00 (versus lvl2)
+Training round 51 completed in 6 minutes and 12 seconds.
+Expected completion: 09:00 2020-05-20.
+Training round 52 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 18.75 moves
+Loss p1: 0.171209, Loss p2: 0.161469
+Benchmark Stats Training Round 52
+W: 0.95, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.79, T: 0.00 (versus lvl1)
+W: 0.44, T: 0.00 (versus lvl2)
+Training round 52 completed in 6 minutes and 7 seconds.
+Expected completion: 08:56 2020-05-20.
+Training round 53 stats
+Wins 0.53, Ties 0.00, Losses 0.47, Game Length 18.85 moves
+Loss p1: 0.172132, Loss p2: 0.161525
+Benchmark Stats Training Round 53
+W: 0.93, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.86, T: 0.00 (versus lvl1)
+W: 0.29, T: 0.01 (versus lvl2)
+Training round 53 completed in 6 minutes and 14 seconds.
+Expected completion: 09:02 2020-05-20.
+Training round 54 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 18.50 moves
+Loss p1: 0.171576, Loss p2: 0.161164
+Benchmark Stats Training Round 54
+W: 0.88, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.76, T: 0.00 (versus lvl1)
+W: 0.39, T: 0.01 (versus lvl2)
+Training round 54 completed in 6 minutes and 3 seconds.
+Expected completion: 08:53 2020-05-20.
+Training round 55 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 19.05 moves
+Loss p1: 0.180032, Loss p2: 0.162028
+Benchmark Stats Training Round 55
+W: 0.90, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.78, T: 0.00 (versus lvl1)
+W: 0.35, T: 0.00 (versus lvl2)
+Training round 55 completed in 6 minutes and 6 seconds.
+Expected completion: 08:55 2020-05-20.
+Training round 56 stats
+Wins 0.51, Ties 0.00, Losses 0.48, Game Length 19.08 moves
+Loss p1: 0.176847, Loss p2: 0.171261
+Benchmark Stats Training Round 56
+W: 0.80, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.79, T: 0.00 (versus lvl1)
+W: 0.20, T: 0.01 (versus lvl2)
+Training round 56 completed in 6 minutes and 12 seconds.
+Expected completion: 09:00 2020-05-20.
+Training round 57 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 18.86 moves
+Loss p1: 0.172360, Loss p2: 0.164666
+Benchmark Stats Training Round 57
+W: 0.88, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.83, T: 0.00 (versus lvl1)
+W: 0.41, T: 0.00 (versus lvl2)
+Training round 57 completed in 6 minutes and 7 seconds.
+Expected completion: 08:56 2020-05-20.
+Training round 58 stats
+Wins 0.53, Ties 0.00, Losses 0.47, Game Length 18.74 moves
+Loss p1: 0.170332, Loss p2: 0.161091
+Benchmark Stats Training Round 58
+W: 0.90, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.83, T: 0.00 (versus lvl1)
+W: 0.20, T: 0.00 (versus lvl2)
+Training round 58 completed in 6 minutes and 10 seconds.
+Expected completion: 08:58 2020-05-20.
+Training round 59 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 18.89 moves
+Loss p1: 0.182018, Loss p2: 0.178753
+Benchmark Stats Training Round 59
+W: 0.88, T: 0.01 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.75, T: 0.00 (versus lvl1)
+W: 0.45, T: 0.02 (versus lvl2)
+Training round 59 completed in 6 minutes and 5 seconds.
+Expected completion: 08:55 2020-05-20.
+Training round 60 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 18.78 moves
+Loss p1: 0.180811, Loss p2: 0.166832
+Benchmark Stats Training Round 60
+W: 0.93, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.76, T: 0.00 (versus lvl1)
+W: 0.14, T: 0.00 (versus lvl2)
+Training round 60 completed in 6 minutes and 11 seconds.
+Expected completion: 08:59 2020-05-20.
+Training round 61 stats
+Wins 0.51, Ties 0.00, Losses 0.48, Game Length 19.01 moves
+Loss p1: 0.188077, Loss p2: 0.171178
+Benchmark Stats Training Round 61
+W: 0.92, T: 0.00 (versus random)
+W: 0.00, T: 0.00 (versus left)
+W: 0.85, T: 0.00 (versus lvl1)
+W: 0.31, T: 0.02 (versus lvl2)
+Training round 61 completed in 6 minutes and 14 seconds.
+Expected completion: 09:01 2020-05-20.
+Training round 62 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 19.14 moves
+Loss p1: 0.183009, Loss p2: 0.171206
+Benchmark Stats Training Round 62
+W: 0.92, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.87, T: 0.00 (versus lvl1)
+W: 0.28, T: 0.01 (versus lvl2)
+Training round 62 completed in 6 minutes and 16 seconds.
+Expected completion: 09:03 2020-05-20.
+Training round 63 stats
+Wins 0.48, Ties 0.00, Losses 0.52, Game Length 18.99 moves
+Loss p1: 0.192309, Loss p2: 0.171793
+Benchmark Stats Training Round 63
+W: 0.84, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.70, T: 0.00 (versus lvl1)
+W: 0.33, T: 0.00 (versus lvl2)
+Training round 63 completed in 6 minutes and 12 seconds.
+Expected completion: 08:59 2020-05-20.
+Training round 64 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 18.73 moves
+Loss p1: 0.185177, Loss p2: 0.169591
+Benchmark Stats Training Round 64
+W: 0.90, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.79, T: 0.00 (versus lvl1)
+W: 0.33, T: 0.00 (versus lvl2)
+Training round 64 completed in 6 minutes and 14 seconds.
+Expected completion: 09:01 2020-05-20.
+Training round 65 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 18.46 moves
+Loss p1: 0.193174, Loss p2: 0.172339
+Benchmark Stats Training Round 65
+W: 0.96, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.86, T: 0.00 (versus lvl1)
+W: 0.29, T: 0.02 (versus lvl2)
+Training round 65 completed in 6 minutes and 7 seconds.
+Expected completion: 08:56 2020-05-20.
+Training round 66 stats
+Wins 0.53, Ties 0.00, Losses 0.46, Game Length 18.32 moves
+Loss p1: 0.190809, Loss p2: 0.172878
+Benchmark Stats Training Round 66
+W: 0.96, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.82, T: 0.00 (versus lvl1)
+W: 0.36, T: 0.00 (versus lvl2)
+Training round 66 completed in 5 minutes and 60 seconds.
+Expected completion: 08:53 2020-05-20.
+Training round 67 stats
+Wins 0.51, Ties 0.00, Losses 0.48, Game Length 18.59 moves
+Loss p1: 0.184366, Loss p2: 0.172287
+Benchmark Stats Training Round 67
+W: 0.91, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.90, T: 0.00 (versus lvl1)
+W: 0.45, T: 0.00 (versus lvl2)
+Training round 67 completed in 6 minutes and 8 seconds.
+Expected completion: 08:57 2020-05-20.
+Training round 68 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 18.36 moves
+Loss p1: 0.194757, Loss p2: 0.177749
+Benchmark Stats Training Round 68
+W: 0.96, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.86, T: 0.00 (versus lvl1)
+W: 0.40, T: 0.00 (versus lvl2)
+Training round 68 completed in 6 minutes and 0 seconds.
+Expected completion: 08:53 2020-05-20.
+Training round 69 stats
+Wins 0.53, Ties 0.00, Losses 0.47, Game Length 18.77 moves
+Loss p1: 0.197339, Loss p2: 0.185427
+Benchmark Stats Training Round 69
+W: 0.92, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.79, T: 0.01 (versus lvl1)
+W: 0.40, T: 0.00 (versus lvl2)
+Training round 69 completed in 5 minutes and 54 seconds.
+Expected completion: 08:50 2020-05-20.
+Training round 70 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 18.68 moves
+Loss p1: 0.184485, Loss p2: 0.177615
+Benchmark Stats Training Round 70
+W: 0.89, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.81, T: 0.00 (versus lvl1)
+W: 0.41, T: 0.02 (versus lvl2)
+Training round 70 completed in 6 minutes and 9 seconds.
+Expected completion: 08:57 2020-05-20.
+Training round 71 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 18.92 moves
+Loss p1: 0.185700, Loss p2: 0.172759
+Benchmark Stats Training Round 71
+W: 0.87, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.79, T: 0.00 (versus lvl1)
+W: 0.35, T: 0.00 (versus lvl2)
+Training round 71 completed in 6 minutes and 18 seconds.
+Expected completion: 09:02 2020-05-20.
+Training round 72 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 18.61 moves
+Loss p1: 0.189823, Loss p2: 0.176754
+Benchmark Stats Training Round 72
+W: 0.93, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.87, T: 0.00 (versus lvl1)
+W: 0.44, T: 0.00 (versus lvl2)
+Training round 72 completed in 6 minutes and 4 seconds.
+Expected completion: 08:55 2020-05-20.
+Training round 73 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 18.70 moves
+Loss p1: 0.197962, Loss p2: 0.184161
+Benchmark Stats Training Round 73
+W: 0.94, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.83, T: 0.00 (versus lvl1)
+W: 0.41, T: 0.00 (versus lvl2)
+Training round 73 completed in 6 minutes and 12 seconds.
+Expected completion: 08:59 2020-05-20.
+Training round 74 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 19.15 moves
+Loss p1: 0.196314, Loss p2: 0.180946
+Benchmark Stats Training Round 74
+W: 0.89, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.76, T: 0.00 (versus lvl1)
+W: 0.23, T: 0.00 (versus lvl2)
+Training round 74 completed in 6 minutes and 11 seconds.
+Expected completion: 08:58 2020-05-20.
+Training round 75 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 19.23 moves
+Loss p1: 0.189331, Loss p2: 0.177675
+Benchmark Stats Training Round 75
+W: 0.90, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.80, T: 0.00 (versus lvl1)
+W: 0.41, T: 0.00 (versus lvl2)
+Training round 75 completed in 6 minutes and 24 seconds.
+Expected completion: 09:04 2020-05-20.
+Training round 76 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 18.23 moves
+Loss p1: 0.193577, Loss p2: 0.184475
+Benchmark Stats Training Round 76
+W: 0.96, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.83, T: 0.00 (versus lvl1)
+W: 0.35, T: 0.00 (versus lvl2)
+Training round 76 completed in 6 minutes and 6 seconds.
+Expected completion: 08:56 2020-05-20.
+Training round 77 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 18.14 moves
+Loss p1: 0.197890, Loss p2: 0.186667
+Benchmark Stats Training Round 77
+W: 0.95, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.91, T: 0.00 (versus lvl1)
+W: 0.41, T: 0.01 (versus lvl2)
+Training round 77 completed in 6 minutes and 5 seconds.
+Expected completion: 08:56 2020-05-20.
+Training round 78 stats
+Wins 0.49, Ties 0.00, Losses 0.51, Game Length 18.75 moves
+Loss p1: 0.199013, Loss p2: 0.185697
+Benchmark Stats Training Round 78
+W: 0.95, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.81, T: 0.00 (versus lvl1)
+W: 0.40, T: 0.01 (versus lvl2)
+Training round 78 completed in 6 minutes and 12 seconds.
+Expected completion: 08:59 2020-05-20.
+Training round 79 stats
+Wins 0.48, Ties 0.00, Losses 0.51, Game Length 18.52 moves
+Loss p1: 0.202641, Loss p2: 0.182326
+Benchmark Stats Training Round 79
+W: 0.96, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.84, T: 0.00 (versus lvl1)
+W: 0.49, T: 0.01 (versus lvl2)
+Training round 79 completed in 6 minutes and 12 seconds.
+Expected completion: 08:59 2020-05-20.
+Training round 80 stats
+Wins 0.52, Ties 0.00, Losses 0.47, Game Length 18.41 moves
+Loss p1: 0.195683, Loss p2: 0.179144
+Benchmark Stats Training Round 80
+W: 0.95, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.84, T: 0.00 (versus lvl1)
+W: 0.48, T: 0.00 (versus lvl2)
+Training round 80 completed in 6 minutes and 9 seconds.
+Expected completion: 08:58 2020-05-20.
+Training round 81 stats
+Wins 0.54, Ties 0.01, Losses 0.46, Game Length 18.74 moves
+Loss p1: 0.200548, Loss p2: 0.188411
+Benchmark Stats Training Round 81
+W: 0.91, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.76, T: 0.00 (versus lvl1)
+W: 0.47, T: 0.00 (versus lvl2)
+Training round 81 completed in 6 minutes and 8 seconds.
+Expected completion: 08:57 2020-05-20.
+Training round 82 stats
+Wins 0.50, Ties 0.00, Losses 0.49, Game Length 18.18 moves
+Loss p1: 0.206636, Loss p2: 0.188005
+Benchmark Stats Training Round 82
+W: 0.95, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.93, T: 0.00 (versus lvl1)
+W: 0.36, T: 0.00 (versus lvl2)
+Training round 82 completed in 6 minutes and 0 seconds.
+Expected completion: 08:55 2020-05-20.
+Training round 83 stats
+Wins 0.52, Ties 0.01, Losses 0.47, Game Length 18.54 moves
+Loss p1: 0.194965, Loss p2: 0.183203
+Benchmark Stats Training Round 83
+W: 0.92, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.82, T: 0.00 (versus lvl1)
+W: 0.34, T: 0.01 (versus lvl2)
+Training round 83 completed in 6 minutes and 16 seconds.
+Expected completion: 09:00 2020-05-20.
+Training round 84 stats
+Wins 0.48, Ties 0.00, Losses 0.51, Game Length 17.97 moves
+Loss p1: 0.205795, Loss p2: 0.191017
+Benchmark Stats Training Round 84
+W: 0.98, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.89, T: 0.00 (versus lvl1)
+W: 0.41, T: 0.00 (versus lvl2)
+Training round 84 completed in 5 minutes and 57 seconds.
+Expected completion: 08:54 2020-05-20.
+Training round 85 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 18.43 moves
+Loss p1: 0.202915, Loss p2: 0.191186
+Benchmark Stats Training Round 85
+W: 0.92, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.84, T: 0.00 (versus lvl1)
+W: 0.21, T: 0.00 (versus lvl2)
+Training round 85 completed in 6 minutes and 6 seconds.
+Expected completion: 08:57 2020-05-20.
+Training round 86 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 18.31 moves
+Loss p1: 0.200935, Loss p2: 0.187517
+Benchmark Stats Training Round 86
+W: 0.96, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.79, T: 0.00 (versus lvl1)
+W: 0.34, T: 0.01 (versus lvl2)
+Training round 86 completed in 5 minutes and 56 seconds.
+Expected completion: 08:54 2020-05-20.
+Training round 87 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 18.56 moves
+Loss p1: 0.198363, Loss p2: 0.187138
+Benchmark Stats Training Round 87
+W: 0.91, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.82, T: 0.00 (versus lvl1)
+W: 0.38, T: 0.00 (versus lvl2)
+Training round 87 completed in 6 minutes and 6 seconds.
+Expected completion: 08:57 2020-05-20.
+Training round 88 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 18.51 moves
+Loss p1: 0.206957, Loss p2: 0.187155
+Benchmark Stats Training Round 88
+W: 0.99, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.74, T: 0.00 (versus lvl1)
+W: 0.35, T: 0.00 (versus lvl2)
+Training round 88 completed in 6 minutes and 8 seconds.
+Expected completion: 08:57 2020-05-20.
+Training round 89 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 18.68 moves
+Loss p1: 0.201544, Loss p2: 0.181077
+Benchmark Stats Training Round 89
+W: 0.98, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.85, T: 0.00 (versus lvl1)
+W: 0.53, T: 0.00 (versus lvl2)
+Training round 89 completed in 6 minutes and 6 seconds.
+Expected completion: 08:57 2020-05-20.
+Training round 90 stats
+Wins 0.47, Ties 0.00, Losses 0.52, Game Length 18.51 moves
+Loss p1: 0.202732, Loss p2: 0.184473
+Benchmark Stats Training Round 90
+W: 0.96, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.87, T: 0.00 (versus lvl1)
+W: 0.36, T: 0.00 (versus lvl2)
+Training round 90 completed in 6 minutes and 8 seconds.
+Expected completion: 08:57 2020-05-20.
+Training round 91 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 18.44 moves
+Loss p1: 0.207022, Loss p2: 0.185905
+Benchmark Stats Training Round 91
+W: 0.96, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.91, T: 0.00 (versus lvl1)
+W: 0.58, T: 0.01 (versus lvl2)
+Training round 91 completed in 5 minutes and 58 seconds.
+Expected completion: 08:55 2020-05-20.
+Training round 92 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 18.52 moves
+Loss p1: 0.211656, Loss p2: 0.187634
+Benchmark Stats Training Round 92
+W: 0.91, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.86, T: 0.00 (versus lvl1)
+W: 0.49, T: 0.02 (versus lvl2)
+Training round 92 completed in 6 minutes and 6 seconds.
+Expected completion: 08:57 2020-05-20.
+Training round 93 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 18.41 moves
+Loss p1: 0.207176, Loss p2: 0.197058
+Benchmark Stats Training Round 93
+W: 0.99, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.96, T: 0.00 (versus lvl1)
+W: 0.58, T: 0.00 (versus lvl2)
+Training round 93 completed in 6 minutes and 6 seconds.
+Expected completion: 08:56 2020-05-20.
+Training round 94 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 18.79 moves
+Loss p1: 0.204624, Loss p2: 0.186778
+Benchmark Stats Training Round 94
+W: 0.99, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.91, T: 0.00 (versus lvl1)
+W: 0.53, T: 0.00 (versus lvl2)
+Training round 94 completed in 6 minutes and 3 seconds.
+Expected completion: 08:56 2020-05-20.
+Training round 95 stats
+Wins 0.51, Ties 0.00, Losses 0.48, Game Length 18.29 moves
+Loss p1: 0.208102, Loss p2: 0.193276
+Benchmark Stats Training Round 95
+W: 0.97, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.94, T: 0.00 (versus lvl1)
+W: 0.49, T: 0.00 (versus lvl2)
+Training round 95 completed in 6 minutes and 4 seconds.
+Expected completion: 08:56 2020-05-20.
+Training round 96 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 18.36 moves
+Loss p1: 0.210030, Loss p2: 0.197396
+Benchmark Stats Training Round 96
+W: 0.99, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.93, T: 0.00 (versus lvl1)
+W: 0.57, T: 0.00 (versus lvl2)
+Training round 96 completed in 6 minutes and 4 seconds.
+Expected completion: 08:56 2020-05-20.
+Training round 97 stats
+Wins 0.51, Ties 0.00, Losses 0.49, Game Length 18.52 moves
+Loss p1: 0.214362, Loss p2: 0.192559
+Benchmark Stats Training Round 97
+W: 0.96, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.92, T: 0.00 (versus lvl1)
+W: 0.52, T: 0.00 (versus lvl2)
+Training round 97 completed in 6 minutes and 8 seconds.
+Expected completion: 08:56 2020-05-20.
+Training round 98 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 18.27 moves
+Loss p1: 0.201012, Loss p2: 0.184640
+Benchmark Stats Training Round 98
+W: 0.95, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.92, T: 0.00 (versus lvl1)
+W: 0.56, T: 0.01 (versus lvl2)
+Training round 98 completed in 6 minutes and 7 seconds.
+Expected completion: 08:56 2020-05-20.
+Training round 99 stats
+Wins 0.52, Ties 0.00, Losses 0.48, Game Length 18.38 moves
+Loss p1: 0.210741, Loss p2: 0.183736
+Benchmark Stats Training Round 99
+W: 0.98, T: 0.00 (versus random)
+W: 0.50, T: 0.00 (versus left)
+W: 0.94, T: 0.00 (versus lvl1)
+W: 0.48, T: 0.00 (versus lvl2)
+Training round 99 completed in 5 minutes and 58 seconds.
+Expected completion: 08:56 2020-05-20.
+Training round 100 stats
+Wins 0.50, Ties 0.00, Losses 0.50, Game Length 18.58 moves
+Loss p1: 0.212904, Loss p2: 0.196742
+Benchmark Stats Training Round 100
+W: 0.97, T: 0.00 (versus random)
+W: 1.00, T: 0.00 (versus left)
+W: 0.91, T: 0.00 (versus lvl1)
+W: 0.43, T: 0.00 (versus lvl2)
+Training round 100 completed in 6 minutes and 8 seconds.
+Expected completion: 08:56 2020-05-20.
