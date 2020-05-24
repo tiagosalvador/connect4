@@ -34,12 +34,25 @@ The Jupyter Notebook `Connect4.ipynb` contains an analysis of the quality of the
 |-------------|---------------|--------------|-----------------------|-----------------------|
 | 0%          | 3%            | 17%          | 70%                   | 92%                   |
 
+## DQN
+The file `trainDQN.py` implements a Deep Q-Network (DQN) that learns how to play Connect 4 by self-play (inspired by [2]). Two DQN are created and play againsts themselves taking turns on who starts first. At the end of each game, the weights of each network are updated. There are several choices that can be made regarding the exploration strategty, loss function, optimizer, different neural network architectures among others. See the file for all the options.
+
+Below the evolution of the DQN during training is displayed. Each training round corresponds to 1000 self-play games. The DQN is evaluted by playing 100 games against three distinct players: Random Player, Player Level 1, Player Level 2. Each player starts the game half the times. The DQN quickly learns how to beat the Random Player and similarly for Player Level 1. 
+
+<p align="center">
+<img align="middle" src="images/benchmark_DQN.png" width="400" height="300" />
+</p>
+
 ## To do list
 - [X] Implement base players.
-- [x] Implement minmax players.
-- [x] Implement alpha-beta prunning for minmax algorithm.
+- [X] Implement minmax players.
+- [X] Implement alpha-beta prunning for minmax algorithm.
 - [ ] Implement move exploration for minmax algorithm.
-- [ ] Implement DQN algorithm.
+- [X] Implement Deep Q-Network (DQN).
+- [ ] Implement Actor Critic agent.
+- [ ] Implement Asynchronous Actor Critic (A3C) agent.
+- [ ] Implement Alpha GO like agent.
 
 ## References
-- Kaggle Micro Course: [Intro to Game AI and Reinforcement Learning](https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning).
+1. Kaggle Micro Course: [Intro to Game AI and Reinforcement Learning](https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning).
+1. Learning to play Connect 4 with Deep Reinforcement Learning https://codebox.net/pages/connect4
