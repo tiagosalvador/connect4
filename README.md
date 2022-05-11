@@ -43,7 +43,7 @@ Below the evolution of the DQN during training is displayed. Each training round
 <img align="middle" src="images/benchmark_DQN.png" width="400" height="300" />
 </p>
 
-## To do list
+<!-- ## To do list
 - [X] Implement base players.
 - [X] Implement minmax players.
 - [X] Implement alpha-beta prunning for minmax algorithm.
@@ -51,7 +51,7 @@ Below the evolution of the DQN during training is displayed. Each training round
 - [X] Implement Deep Q-Network (DQN).
 - [ ] Implement Actor Critic agent.
 - [ ] Implement Asynchronous Actor Critic (A3C) agent.
-- [ ] Implement Alpha GO like agent.
+- [ ] Implement Alpha GO like agent. -->
 
 ## References
 1. Kaggle Micro Course: [Intro to Game AI and Reinforcement Learning](https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning).
